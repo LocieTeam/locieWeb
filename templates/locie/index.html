@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+{%load static %}
+{% load crispy_forms_tags %}
+<html>
+  <head>
+    <title>Locie</title>
+    {% block head_favicon %}
+       <link rel="icon" type = "img/png"
+             href = "{% static "img/favicon.ico" %}" >
+    {% endblock head_favicon %}
+
+    {% block head_meta_charset %}
+       <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+       {% endblock head_meta_charset %}
+               {% block head_meta_contentlanguage %}
+                   <meta http-equiv="Content-Language" value="en-US" />
+               {% endblock head_meta_contentlanguage %}
+               {% block head_meta_viewport %}
+                   <meta name="viewport"
+                         content="width=device-width, initial-scale=1.0,user-scalable=yes">
+               {% endblock head_meta_viewport %}
+               <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+               <link href="{% static "css/app.css" %}" rel="stylesheet" media="screen">
+
+
+
+       </head>
+
+       <body>
+         <!-- Header-->
+         <header>
+           <div class="navigation-bar sticky-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand brand" href="index.html">Locie</a>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active topnav">
+                       <a class="nav-link home" id = "home" href="#banner">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item active topnav">
+                       <a class="nav-link" href="#join-Us" id="contactUs">Contact Us</a>
+                     </li>
+
+                     <li class="nav-item active topnav">
+                       <a class="nav-link" href="#ourPromise" id="promise">Our Promise</a>
+                     </li>
+                     <li class="nav-item active topnav">
+                       <a class="nav-link" href="#believe-us" id="believe">Why Believe Us?</a>
+                     </li>
+                     <li class="nav-item active topnav">
+                       <a href="#join-Us">
+                      <button class="btn btn-primary subscribe-nav-btn" type="button" onclick="#subscription">Subscribe</button></a>
+                     </li>
+                   </ul>
+                 </div>
+               </nav>
+               </div>
+
+               <!-- Banner Starts here-->
+              <section class="banner" id="banner">
+                <div class="banner-div">
+                  <h1 class="banner-head-1" font size="getWidthResolution(50)">Bring Your Business Online, with Us</h1>
+                  <h1 class="banner-head-2"> and change your city.</h1>
+                </div>
+              </section>
+                 <!-- Banner Ends Here -->
+                <!-- Why need Us starts here-->
+                 <section class="need-us">
+                   <div class="why-need-us">
+                     <div class="need-us-headings">
+                     <h1 class="need-us-heading">Why Need Us?</h1>
+                     <h2 class="need-us-subheading">e-Commerce sites are destroying our local market</h2>
+                   </div>
+                    <div class="need-us-body-container">
+                     <p class="need-us-body part-1"> We all know that e-Commerce sites destroyed many popular sectors like  Mobile, fashion, books, etc. Next could be yours, you need to fight which can be done only when your business will be ONLINE!</p>
+
+                    </div>
+                  </div>
+                </section>
+                <!--Why need Us  Ends Here -->
+
+                <!-- Why Believe Us Starts Here-->
+                <section class="believe-us" id="believe-us">
+                  <div class="believe-us-container">
+                    <div class="believe-us-heading-container">
+                    <h1 class="believe-us-heading">Why Believe Us</h1>
+                  </div>
+                  <div class="believe-us-body-container">
+                    <p class="believe-us-body part-1"> All of Our team members ar suffering from same problem.</p>
+                    <p class="believe-us-body part-2">Business of Our parents are on edge of destruction. When we tried to fight this we were alone, and expenses of coming online was huge.The coming era is going to be more harsh, we are going to watch more companies like this. The only thing we could do is to come Online as soon as possible.</p>
+                    <p class="believe-us-body part-3">For coming Online we needed our own Website, because the big Companies sell our products on their name on their website and earn huge. We can get our name back, for that we should have our website.Now days everybody is on phone, we need an App for easy access. Most Important a Delivery System, Our hands and legs, well this all sums up to huge to maintaine alone.</p>
+
+                    <h2 class="believe-us-body part-4">That's where this idea came from!</h2>
+                  </div>
+
+                </section>
+                <!-- Why Believe Us Ends Here -->
+
+
+                <!-- Our Promise Starts Here-->
+                <section id="ourPromise" class="our-promise">
+
+                  <div class="our-promise-head-container">
+                    <h1 class="our-promise-head">Our Promise</h1>
+                  </div>
+                  <div class="our-promise-body-container">
+
+                    <!-- Website Starts Here-->
+                   <section class="our-promise-body-website">
+
+                      <div class="website-img">
+                        <img src="{% static "img/website.png" %}"/>
+                      </div>
+                      <div class="website-text">
+                        <div class="website-text-head-container">
+                          <h2 class="website-text-head"> Website</h2>
+                        </div>
+                      <div class="website-text-body-container">
+                        <p class="website-text-body"> You will get Your very Own Website. Where your customer could explore you, Review you and Order you.</p>
+                      </div>
+                    </div>
+
+                </section>
+                <!-- Website Ends Here -->
+
+                <!-- App Starts Here-->
+                <section class="our-promise-body-app">
+                  <div class="app-text">
+                    <div class="app-text-head-container">
+                      <h2 class="app-text-head"> Common App </h2>
+                    </div>
+                    <div class="app-text-body-container">
+                      <p class="app-text-body"> A common App, So that your customers could Order and see on phone.Common because nobody is going to download different app for different shop, and from common app you will also get chance of better customer engagement.</p>
+                    </div>
+                  </div>
+                  <div class="app-img-container">
+                    <div class="app-img">
+                    <img src="{% static "img/phone_screen.png" %}"/>
+                  </div>
+                  </div>
+                </section>
+                <!-- App Ends Here -->
+
+                <!--  Delivery Starts Here-->
+                <section class="our-promise-delivery">
+                  <div class="delivery-img-container">
+                    <div class="delivery-img">
+                      <img src="{% static "img/delivery.jpg" %}"/>
+                    </div>
+                  </div>
+                  <div class="delivery-text-container">
+                    <div class="delivery-text-head-container">
+                      <h2 class="delivery-text-head"> Delivery System </h2>
+
+                    </div>
+                    <div class="delivery-text-body-container">
+                      <p class="delivery-text-body"> We also provide Delivery Support System to your bussiness.You just have to take care of your service, rest is our responsibility. Our Delivery System is different from others, on basis of which we can support any type of bussiness.</p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!--Delivery Ends Here -->
+              </div>
+
+                </section>
+                <!-- Our Promise Ends Here-->
+
+
+
+            <!-- Join Us Starts Here -->
+              <section id="join-Us" class="join-us">
+                <!--Contact Us Starts Here -->
+              <section class="contact-me">
+                <section class="contact-us-sec">
+                  <div class="contact-us-head-container">
+                    <div class="contact-us-head-div">
+                      <h1 class="contact-us-head"> Contact Us </h2>
+                    </div>
+                  </div>
+                  <div class="contact-us-body-container">
+                    <div class="contact-us-email-container">
+                      <p class="contact-us-email contact"> <b>Email :</b> locieteam2019@gmail.com</p>
+                    </div>
+                    <div class="contact-us-phone-conatiner">
+                      <p class="phone-1 contact"><b>Phone:</b> +91-6392886167</p>
+                      <p class="phone-2 contact"><b>Phone:</b> +91-7348178191</p>
+                      <p  class="phone-3 contact"><b>Phone:</b> +91-9670600267</p>
+                  </div>
+                </div>
+                </section>
+                <section class="get-social">
+                <section class="get-social-head-container">
+                  <div class="get-social-head-div">
+                    <h2 class="get-social-head"> Get Social With Us</h2>
+                  </div>
+                </section>
+                  <section class="go-scoial-container">
+                    <a href="#" class="facebook social"><img src="{% static "img/facebook.png"%}"/></a>
+                    <a href="#" class="instagram social"><img src="{% static "img/instagram.png" %}"/></a>
+                    <a href="#" class="twitter social"><img src="{% static "img/twitter.png" %}"/></a>
+
+                </section>
+              </section>
+              </section>
+                <!-- Cobtact Us Ends Here -->
+
+                <!-- Subscription Starts Here-->
+              <section id="subscription-section" class="subs">
+              <!-- Form -->
+                <div class = "subscription col-lg-9" id="subscription">
+                  <div class="subs-head-container">
+                    <h1 class="subs-head"> Subscribe </h1>
+
+                  </div>
+                {% if submitted == True %}
+                <form method="post" action = "" name="form">
+                  {%csrf_token%}
+                  {{form | crispy}}
+            <p class = "submit-btn">
+              <div class="submit-btn-div">
+                  <button type="submit" class="btn btn-primary">Subscribe</button></p>
+              </div>
+              </form>
+              {% endif %}
+              {% if submitted == False %}
+                <p class="thank-submitted">Thank You.</p>
+                <p class="thanks-body">We will contact you, when we will be in your city.</p>
+              {% endif %}
+            </div>
+          </div>
+        </section>
+
+        <!-- Subscription Ends Here -->
+          </section>
+          <!-- Join Us Ends Here-->
+
+          <!-- Credit and Copyright insight-->
+          <section class="credit-copyright">
+            <div class="credit">
+              <p class="credit-para">Designed and Powered with <img src="{% static "img/like.png"%}"/> by Locie.</p>
+            </div>
+          </section>
+
+
+
+
+
+
+
+
+
+{% block footer_javascript %}
+    {% block footer_javascript_site %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+
+      {% endblock footer_javascript_site %}
+          {% block footer_javascript_section %}{% endblock footer_javascript_section %}
+          {% block footer_javascript_page %}{% endblock footer_javascript_page %}
+ {% endblock footer_javascript %}

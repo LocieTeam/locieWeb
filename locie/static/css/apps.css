@@ -1,0 +1,98 @@
+.navigation-bar.sticky-wrapper{
+  position:absolute;
+  width:100%;
+  height:70%;
+
+}
+.navbar-brand.brand {
+  font-style: bold;
+  font-size: 36px;
+}
+.nav-item.active.topnav a:hover{
+  color:white;
+  background-color: black;
+}
+.carousel.slide.slim{
+  position:relative;
+  top:90px;
+}
+.card.need{
+  position:relative;
+  width:80%;
+  top:8%;
+  left:10%;
+
+}
+.need-border{
+  position:relative;
+  top:180px;
+  height:500px;
+
+background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
+
+}
+.input-group.mb-3.first-name{
+  width:35%;
+  left:10%;
+}
+
+.contact-us-body-head{
+  font-weight:300;
+  font-size:5rem;
+  left:15%;
+  color:#212331;
+}
+.control-group{
+  padding:.375rem .75rem;
+  left:60%;
+  border-radius:.25rem;
+  border-color:#ced4da;
+}
+
+.final-div{
+  display:flex;
+  padding-top:7.5rem;
+}
+.banner{
+  top:40px;
+}
+
+                 /*
+              <div class="need-border">
+                <div class="card need" id="need-us">
+                  <div class="card-header need-us-heading">
+                    <p> Why You Need Us ?</p>
+                  </div>
+                  <div class="card-body need-us-body">
+                    <p class = "para-1">We all know that <b>e-Commerce</b> and <b>Online Service Providing </b> sites like Amazon, Flipkart, Snapdeal, UrbanClap is controlling the market more than local shops.We are wattching popular sectors like mobile industry, electronic industry, book industry, etc are going down. Local Shops are closing due to lack of offline customers.</p>
+                    <p class="para-2"> Well actually two things contribute in this :</p>
+                    <p class="need-us-list">
+                     <ol>
+                      <li> People do not want to come out.</li>
+                      <li> They want to compare rates easily and get the cheapest one.</li>
+                     </ol>
+                   </p>
+                   <p class="para-3"> In short, they use your product earn money, take their share, and keep all the credit with them. Customers even do not recognise the shop or dealer.They just recognise the site. Was that your, to be recognised by someone else name ?</p>
+                   <p class="para-4"> We want to pull every local Shopkeeper, servicemen, tailor, beautician, electrician, plumber, carpenter, laundarymen, book shop, grocery shop, etc, online.</p>
+                </div>
+              </div>
+            </div>
+
+
+              <div class="promise-you" id="promise-you">
+                <div class="promise-you-heading">
+                  <p> What We Promise You ? </p>
+                </div>
+                <div class="promise-you-body">
+                  <p class="promise-para-1">We will give you three things. A <b>Website</b>, through which anyone can see and know your service. The Website provided by us will be free and can be find through link or directly from our main site.</p>
+                  <p class="promise-para-2"> A common <b>App</b>, on which the customers of your city can see your shop, your products, your rating, your achievements, and order your product and services.</p>
+                  <p class="promise-para-3"> A <b>Delivery System</b>, You do not have to worry about delivery, We will take care of everything from pickup to drop.</p>
+                  <p class="promise-para-4"> Our Delivery System provides you three tier facility, whether you have to go fro servicing, or subject or item have to be taken to you, or just normal delivery, We will do that for you.</p>
+                  <p class="promise-para-4"> You just have to focus on your service and business, rest is our headeche.</p>
+                  <p class="stipen"> So, Join Your hands for creating a new future of local market, and change the world.</p>
+                  <p class= "slogs"><b> GET AN IDENTITY, OWN LOGO, OWN WEBSITE,</b></p>
+                  <p class="closing"><b> A BIG NAME!!</b></p>
+                </div>
+              </div>
+            */

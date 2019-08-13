@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker|Lexend+Deca&display=swap');
+
+/* Banner Starts Her */
+.navbar-brand.brand{
+  font-family:'Lexend Deca',sans-serif;
+  font-size:2.48vw;
+  padding-left:0.93vw;
+  padding-right:2.32vw;
+}
+.banner{
+
+  height:auto;
+  position:relative;
+  padding-bottom:120px;
+}
+.banner-div{
+  padding-left:15.45vw;
+  padding-top:48px;
+}
+.banner-head-1{
+  position:relative;
+  font-size:3.87vw;
+  font-family:'Lexend Deca',sans-serif;
+}
+.banner-head-2{
+  position:relative;
+  font-size:3.87vw;
+  font-family:'Lexend Deca',sans-serif;
+  left:9.27vw;
+}
+
+/* Banner Ends Here*/
+
+/**Why need us Starts here */
+.why-need-us{
+
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+  height:auto;
+  display:flex;
+  padding-bottom:93px;
+}
+.need-us-headings{
+  width:60%;
+  padding-top:45px;
+
+}
+.need-us-heading{
+  font-family:'Lexend Deca',sans-serif;
+  font-weight:32px;
+  font-size:6.95vw;
+  color:black;
+}
+.need-us-subheading{
+  font-family:'Blinker',sans-serif;
+  font-weight:26px;
+  font-size:4.64vw;
+  color:white;
+}
+.need-us-body-container{
+  padding-left:1.55vw;
+  padding-top:55px;
+  padding-right:0.62vw;
+  width:40%;
+
+}
+.need-us-body{
+  font-family:'Blinker',sans-serif;
+  font-weight:22px;
+  font-size:2.48vw;
+  color:white;
+}
+
+
+/* Why need Us Ends Here */
+
+/* Why Believe Us Starts Here*/
+.believe-us{
+  padding-left:18%;
+  padding-right:18%;
+  padding-top:55px;
+  padding-bottom:60px;
+  width:100%;
+  height:auto;
+}
+.believe-us-heading{
+  font-family:'Lexend Deca',sans-serif;
+  font-weight:28px;
+  font-size:5.56vw;
+}
+.believe-us-heading-container{
+  padding-left:1.95vw;
+}
+.believe-us-body{
+  font-family:'Blinker',sans-serif;
+  font-weight:22px;
+  font-size:1.94vw;
+}
+.believe-us-body-container{
+  padding-top:14px;
+}
+.believe-us-body.part-4{
+  font-size:2.63vw;
+}
+
+
+/* Why Believe Us Ends Here*/
+
+/* Our Promise Starts Here*/
+.our-promise{
+  background-color: #fc5296;
+background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+padding-top:20px;
+height:auto;
+padding-bottom:60px;
+}
+.our-promise-head-container{
+  padding-left:32%;
+}
+.our-promise-head{
+  font-family:'Lexend Deca',sans-serif;
+  font-weight:34px;
+  font-size:5.41vw;
+  color:white;
+}
+/* Website Starts Here */
+.website-img{
+  padding-left:7.2%;
+
+}
+.website-img img{
+  width:55%;
+}
+.our-promise-body-website{
+  display:flex;
+  padding-top:40px;
+}
+.website-text-head{
+  font-family:'Lexend Deca',sans-serif;
+  font-weight:22px;
+  font-size:4.64vw;
+  color:black;
+
+}
+.website-text-body{
+  font-family:'Lexend Deca',sans-serif;
+  font-weight:22px;
+  font-size:2.71vw;
+  color:white;
+
+}
+.website-text{
+  position:relative;
+  padding-right:2.008vw;
+
+}
+/* Website Ends Here */
+
+/* App Starts Here*/
+.our-promise-body-app{
+  display:flex;
+  padding-top:45px;
+}
+.app-img-container{
+
+}
+
+.app-img img{
+  width:55%;
+}
+.app-text-head-container{
+  padding-left:8%;
+}
+.app-text-head{
+  font-family:'Lexend Deca',sans-serif;
+  font-weight:22px;
+  font-size:4.64vw;
+  color:black;
+}
+.app-text-body-container{
+  position:relative;
+  padding-left:1.5%;
+}
+.app-text-body{
+  font-family:'Lexend Deca',sans-serif;
+  font-weight:22px;
+  font-size:2.17vw;
+  color:white;
+
+}
+/* App Ends Here*/
+
+/* Delivery Starts Here*/
+.our-promise-delivery{
+  display:flex;
+  padding-top:55px;
+}
+.delivery-img img{
+  width:65%;
+}.delivery-img{
+  padding-left:16%;
+}
+.delivery-text-head{
+  font-family:'Lexend Deca',sans-serif;
+  font-weight:22px;
+  font-size:4.64vw;
+  color:black;
+
+}
+.delivery-text-body{
+  font-family:'Lexend Deca',sans-serif;
+  font-weight:22px;
+  font-size:2.17vw;
+  color:white;
+
+}
+.delivery-body-container{
+  padding-right:0.2%;
+}
+
+/* Delivery Ends Here*/
+
+/* Our Promise Ends Here */
+
+/* Join Us Starts Here*/
+.join-us{
+  display:flex;
+/*  flex-wrap: wrap;*/
+  height:auto;
+  padding-top:45px;
+  padding-bottom:50px;
+}
+.conatact-us-sec{
+  width:50%;
+  padding-right:3.87vw;
+}
+.conatact-us-head-div{
+  padding-left:3.09vw;
+}
+.contact-us-head{
+
+  font-family:'Lexend Deca',sans-serif;
+  font-weight:22px;
+  font-size:4.64vw;
+  color:black;
+
+}
+
+.subs{
+  padding-left:20%;
+}
+.submit-btn-div{
+  padding-top:6px;
+}
+.subs-head{
+  font-family:'Lexend Deca',sans-serif;
+  font-weight:22px;
+  font-size:4.64vw;
+  color:black;
+
+}
+.emailinput{
+  padding:.375rem .75rem;
+  border:1px solid #ced4da;
+  border-radius:.25rem;
+}
+.textinput.textInput{
+  padding:.375rem .75rem;
+  border:1px solid #ced4da;
+  border-radius:.25rem;
+
+}
+.thank-submitted{
+  font-family:'Blinker',sans-serif;
+  font-size:4.25vw;
+}
+.thanks-body{
+  font-family:'Blinker',sans-serif;
+  font-size:3.09vw;
+
+}
+.contact{
+  font-family:'Blinker',sans-serif;
+  font-size:2.78vw;
+
+}
+.social{
+  padding-left:0.55vw;
+  padding-right:0.55vw;
+  padding-top:7px;
+}
+.get-social-head-div{
+  padding-top:12px;
+  padding-left:0.1%;
+}
+.get-social-head{
+  font-family:'Blinker',sans-serif;
+  font-size:4.25vw;
+
+}
+.go-social-container{
+  display:flex;
+
+  padding-left:12%;
+
+}
+
+/* Join Us Ends Here*/
+.credit-copyright{
+  background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+.credit{
+  padding-top:8px;
+  padding-left:33.591vw;
+  padding-bottom:8px;
+}
+.credit-para{
+  font-family:'Lexend Deca',sans-serif;
+  font-size:1.24vw;
+  color:white;
+}

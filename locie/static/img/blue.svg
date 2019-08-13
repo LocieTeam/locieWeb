@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1560" height="1361" viewBox="0 0 1560 1361">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Web_1920_1);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.734" y2="0.759" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2680eb"/>
+      <stop offset="1" stop-color="#4794f1"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1560" height="1361"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-1">
+    <rect class="cls-2" width="1560" height="1361"/>
+  </g>
+</svg>
